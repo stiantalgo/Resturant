@@ -90,6 +90,7 @@ function renderContact(){
     lineThree.textContent = "PhoneNumber: 123-456-789";
     lineFour.textContent = "Country: location";
     contactImg.src = "./media/yum.png";
+    contactImg.alt = "yum";
     lastLine.textContent = "Thanks!";
 
     contactBox.appendChild(lineOne);

@@ -38,7 +38,7 @@ function renderHome(){
 
     firstLine.textContent = "Welcome to Foodit!";
     secondLine.textContent = "We got the best YumYums!";
-    bigImg.src = "/media/yum.png";
+    bigImg.src = "./media/yum.png";
     thirdLine.textContent = "Order now!";
 
     welcomeBox.appendChild(firstLine);
@@ -62,7 +62,7 @@ function renderMenu(items){
         let title = document.createElement('h2');
         let ingredients = document.createElement('h4');
 
-        myImg.src='/media/yum.png'; 
+        myImg.src='./media/yum.png'; 
         title.textContent = "Cinnamon Buns!";
         ingredients.textContent = "Ingredients: Butter, sugar, salt, eggs, cinnamon, milk";
 
@@ -89,7 +89,7 @@ function renderContact(){
     lineTwo.textContent = "Address: StreetName 007 City town";
     lineThree.textContent = "PhoneNumber: 123-456-789";
     lineFour.textContent = "Country: location";
-    contactImg.src = "/media/yum.png";
+    contactImg.src = "./media/yum.png";
     lastLine.textContent = "Thanks!";
 
     contactBox.appendChild(lineOne);
